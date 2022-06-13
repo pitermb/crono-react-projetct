@@ -1,0 +1,75 @@
+.corpo {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.crono {
+  font-size: 65px;
+  padding: 65px;
+  margin: 5px;
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  font-size: 35px;
+  padding: 20px;
+  margin: 5px;
+  width: 250px;
+  height: 100px;
+}
+
+.iniciar {
+  background-color: green;
+}
+.play {
+  background-color: greenyellow;
+}
+.pause {
+  background-color: orange;
+}
+.stop {
+  background-color: red;
+}
+
+.marcadores {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.marcador {
+  font-size: 35px;
+  padding: 10px;
+  margin: 5px;
+  width: 400px;
+  display: flex;
+  align-content: flex-start;
+  background-color: silver;
+}
+
+.marcador > span {
+  font-size: 40px;
+  padding-inline: 20px;
+}
+
+.marcador > input {
+  font-size: 35px;
+  width: 150px;
+}
